@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    background: rgb(71, 6, 71);
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  
+  .chat-container {
+    width: 500px;
+    background: rgb(110, 216, 254);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  }
+  
+  .chat-window {
+    height: 450px;
+    overflow-y: auto;
+    border: 1px solid #0c5a95;
+    padding: 05px;
+    margin-bottom: 10px;
+    background: #ef56c1;
+  }
+  
+  .message {
+    margin: 8px 0;
+    padding: 5px 10px;
+    border-radius: 6px;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 8px;
+  }
+  
+  #username, #messageInput {
+    flex: 1;
+    padding: 8px;
+  }
+  
